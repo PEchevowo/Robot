@@ -1,0 +1,32 @@
+[0.387s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite_msgs': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs
+[3.260s] -- The C compiler identification is GNU 13.3.0
+[4.363s] -- The CXX compiler identification is GNU 13.3.0
+[5.399s] -- Detecting C compiler ABI info
+[6.809s] -- Detecting C compiler ABI info - done
+[6.847s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.877s] -- Detecting C compile features
+[6.925s] -- Detecting C compile features - done
+[7.232s] -- Detecting CXX compiler ABI info
+[8.684s] -- Detecting CXX compiler ABI info - done
+[8.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.742s] -- Detecting CXX compile features
+[8.743s] -- Detecting CXX compile features - done
+[9.059s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[9.059s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[9.060s]   has asked CMake to find a package configuration file provided by
+[9.060s]   "ament_cmake", but CMake did not find one.
+[9.060s] 
+[9.060s]   Could not find a package configuration file provided by "ament_cmake" with
+[9.061s]   any of the following names:
+[9.061s] 
+[9.061s]     ament_cmakeConfig.cmake
+[9.061s]     ament_cmake-config.cmake
+[9.062s] 
+[9.062s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[9.062s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[9.089s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[9.089s]   has been installed.
+[9.089s] 
+[9.090s] [0m
+[9.090s] -- Configuring incomplete, errors occurred!
+[9.091s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite_msgs' returned '1': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs

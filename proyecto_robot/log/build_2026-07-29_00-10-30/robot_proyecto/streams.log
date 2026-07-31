@@ -1,0 +1,20 @@
+[3.435s] Invoking command in '/home/paola/proyecto_robot/src/robot_proyecto': PYTHONPATH=/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_proyecto build --build-base /home/paola/proyecto_robot/build/robot_proyecto/build install --record /home/paola/proyecto_robot/build/robot_proyecto/install.log --install-scripts $base/lib/robot_proyecto --single-version-externally-managed install_data
+[4.674s] running egg_info
+[4.807s] writing ../../build/robot_proyecto/robot_proyecto.egg-info/PKG-INFO
+[4.808s] writing dependency_links to ../../build/robot_proyecto/robot_proyecto.egg-info/dependency_links.txt
+[4.810s] writing requirements to ../../build/robot_proyecto/robot_proyecto.egg-info/requires.txt
+[4.811s] writing top-level names to ../../build/robot_proyecto/robot_proyecto.egg-info/top_level.txt
+[4.953s] reading manifest file '../../build/robot_proyecto/robot_proyecto.egg-info/SOURCES.txt'
+[4.973s] writing manifest file '../../build/robot_proyecto/robot_proyecto.egg-info/SOURCES.txt'
+[4.975s] running build
+[4.977s] running build_py
+[4.980s] running install
+[5.022s] running install_lib
+[5.213s] running install_data
+[5.214s] copying urdf/robot.urdf.xacro -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/urdf
+[5.215s] running install_egg_info
+[5.370s] removing '/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot_proyecto-0.0.0-py3.12.egg-info' (and everything under it)
+[5.409s] Copying ../../build/robot_proyecto/robot_proyecto.egg-info to /home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot_proyecto-0.0.0-py3.12.egg-info
+[5.459s] running install_scripts
+[5.906s] writing list of installed files to '/home/paola/proyecto_robot/build/robot_proyecto/install.log'
+[5.968s] Invoked command in '/home/paola/proyecto_robot/src/robot_proyecto' returned '0': PYTHONPATH=/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_proyecto build --build-base /home/paola/proyecto_robot/build/robot_proyecto/build install --record /home/paola/proyecto_robot/build/robot_proyecto/install.log --install-scripts $base/lib/robot_proyecto --single-version-externally-managed install_data

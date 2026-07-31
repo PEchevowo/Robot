@@ -1,0 +1,18 @@
+[5.359s] Invoking command in '/home/paola/proyecto_robot/build/robot_proyecto': PYTHONPATH=/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paola/proyecto_robot/build/robot_proyecto/build --no-deps symlink_data
+[6.798s] running develop
+[7.659s] running egg_info
+[7.726s] writing robot_proyecto.egg-info/PKG-INFO
+[7.745s] writing dependency_links to robot_proyecto.egg-info/dependency_links.txt
+[7.745s] writing entry points to robot_proyecto.egg-info/entry_points.txt
+[7.746s] writing requirements to robot_proyecto.egg-info/requires.txt
+[7.746s] writing top-level names to robot_proyecto.egg-info/top_level.txt
+[7.894s] reading manifest file 'robot_proyecto.egg-info/SOURCES.txt'
+[7.898s] writing manifest file 'robot_proyecto.egg-info/SOURCES.txt'
+[8.001s] running build_ext
+[8.002s] Creating /home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot-proyecto.egg-link (link to .)
+[8.003s] Installing odom_tf_publisher script to /home/paola/proyecto_robot/install/robot_proyecto/lib/robot_proyecto
+[8.003s] 
+[8.003s] Installed /home/paola/proyecto_robot/build/robot_proyecto
+[8.004s] running symlink_data
+[8.004s] symbolically linking /home/paola/proyecto_robot/build/robot_proyecto/worlds/mundo_paredes.sdf -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/worlds
+[8.088s] Invoked command in '/home/paola/proyecto_robot/build/robot_proyecto' returned '0': PYTHONPATH=/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paola/proyecto_robot/build/robot_proyecto/build --no-deps symlink_data

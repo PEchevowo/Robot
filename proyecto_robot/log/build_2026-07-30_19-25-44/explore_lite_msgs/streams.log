@@ -1,0 +1,196 @@
+[0.204s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs
+[0.594s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.374s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.642s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.394s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[7.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.200s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[16.949s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[21.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.459s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[26.514s] -- Found PythonExtra: /usr/bin/python3  
+[29.331s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[29.982s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[31.184s] -- Configuring done (30.8s)
+[32.201s] -- Generating done (1.0s)
+[33.148s] -- Build files have been written to: /home/paola/proyecto_robot/build/explore_lite_msgs
+[33.176s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs
+[33.183s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/paola/proyecto_robot/build/explore_lite_msgs -- -j8 -l8
+[34.316s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[34.316s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[34.631s] [  5%] Built target ament_cmake_python_symlink_explore_lite_msgs
+[35.583s] [  5%] Built target explore_lite_msgs__rosidl_generator_type_description
+[35.900s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[36.107s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[36.269s] [ 11%] Built target explore_lite_msgs__rs
+[36.370s] running egg_info
+[36.370s] creating explore_lite_msgs.egg-info
+[36.540s] writing explore_lite_msgs.egg-info/PKG-INFO
+[36.540s] writing dependency_links to explore_lite_msgs.egg-info/dependency_links.txt
+[36.541s] writing top-level names to explore_lite_msgs.egg-info/top_level.txt
+[36.550s] writing manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'
+[36.991s] reading manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'
+[36.992s] writing manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'
+[37.250s] [ 11%] Built target ament_cmake_python_build_explore_lite_msgs_egg
+[38.064s] [ 11%] Built target explore_lite_msgs__cpp
+[38.333s] [ 14%] [32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_c.dir/rosidl_generator_c/explore_lite_msgs/msg/detail/explore_status__description.c.o[0m
+[38.333s] [ 17%] [32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_c.dir/rosidl_generator_c/explore_lite_msgs/msg/detail/explore_status__functions.c.o[0m
+[38.391s] [ 20%] [32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_c.dir/rosidl_generator_c/explore_lite_msgs/msg/detail/explore_status__type_support.c.o[0m
+[40.230s] [ 22%] [32m[1mLinking C shared library libexplore_lite_msgs__rosidl_generator_c.so[0m
+[41.034s] [ 22%] Built target explore_lite_msgs__rosidl_generator_c
+[41.324s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[41.426s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[41.465s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[41.466s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[41.466s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[41.506s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[43.286s] [ 42%] [32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/explore_lite_msgs/msg/explore_status__type_support.cpp.o[0m
+[43.288s] [ 45%] [32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/explore_lite_msgs/msg/explore_status__type_support.cpp.o[0m
+[43.467s] [ 48%] [32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/explore_lite_msgs/msg/detail/dds_fastrtps/explore_status__type_support.cpp.o[0m
+[43.545s] [ 51%] [32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/explore_lite_msgs/msg/detail/explore_status__type_support.c.o[0m
+[43.646s] [ 54%] [32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/explore_lite_msgs/msg/detail/explore_status__type_support_c.cpp.o[0m
+[43.744s] [ 57%] [32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/explore_lite_msgs/msg/detail/explore_status__type_support.cpp.o[0m
+[44.401s] [ 60%] [32m[1mLinking C shared library libexplore_lite_msgs__rosidl_typesupport_introspection_c.so[0m
+[44.405s] [ 62%] [32m[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_c.so[0m
+[45.228s] [ 62%] Built target explore_lite_msgs__rosidl_typesupport_introspection_c
+[45.246s] [ 62%] Built target explore_lite_msgs__rosidl_typesupport_c
+[47.949s] [ 65%] [32m[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[47.973s] [ 68%] [32m[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_cpp.so[0m
+[48.731s] [ 68%] Built target explore_lite_msgs__rosidl_typesupport_cpp
+[48.788s] [ 68%] Built target explore_lite_msgs__rosidl_typesupport_introspection_cpp
+[49.068s] [ 71%] [32m[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[49.111s] [ 74%] [32m[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[49.951s] [ 74%] Built target explore_lite_msgs__rosidl_typesupport_fastrtps_c
+[49.959s] [ 74%] Built target explore_lite_msgs__rosidl_typesupport_fastrtps_cpp
+[50.413s] [ 74%] Built target explore_lite_msgs
+[50.859s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[52.705s] [ 77%] Built target explore_lite_msgs__py
+[53.166s] [ 80%] [32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_py.dir/rosidl_generator_py/explore_lite_msgs/msg/_explore_status_s.c.o[0m
+[58.967s] [ 82%] [32m[1mLinking C shared library libexplore_lite_msgs__rosidl_generator_py.so[0m
+[59.719s] [ 82%] Built target explore_lite_msgs__rosidl_generator_py
+[60.405s] [ 85%] [32mBuilding C object CMakeFiles/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[60.406s] [ 88%] [32mBuilding C object CMakeFiles/explore_lite_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[60.444s] [ 91%] [32mBuilding C object CMakeFiles/explore_lite_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[61.794s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so[0m
+[61.951s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[62.302s] [100%] [32m[1mLinking C shared module rosidl_generator_py/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[62.993s] [100%] Built target explore_lite_msgs_s__rosidl_typesupport_c
+[62.994s] [100%] Built target explore_lite_msgs_s__rosidl_typesupport_introspection_c
+[63.293s] [100%] Built target explore_lite_msgs_s__rosidl_typesupport_fastrtps_c
+[63.572s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/paola/proyecto_robot/build/explore_lite_msgs -- -j8 -l8
+[63.763s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/paola/proyecto_robot/build/explore_lite_msgs
+[64.084s] -- Install configuration: ""
+[64.089s] -- Execute custom install script
+[64.120s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/ament_index/resource_index/rosidl_interfaces/explore_lite_msgs
+[64.546s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.json
+[64.859s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__functions.h
+[65.070s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__struct.h
+[65.260s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__type_support.h
+[65.545s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/explore_status.h
+[65.801s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_generator_c__visibility_control.h
+[66.030s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/library_path.sh
+[66.234s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/library_path.dsv
+[66.449s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_fastrtps_c.h
+[66.685s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[66.911s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_introspection_c.h
+[67.162s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[67.374s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__builder.hpp
+[67.591s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__struct.hpp
+[67.846s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__traits.hpp
+[68.070s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__type_support.hpp
+[68.287s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/explore_status.hpp
+[68.491s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[68.682s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_fastrtps_cpp.hpp
+[68.867s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[69.098s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_introspection_cpp.hpp
+[69.324s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/pythonpath.sh
+[69.511s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/pythonpath.dsv
+[69.703s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/PKG-INFO
+[69.913s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/SOURCES.txt
+[70.101s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/dependency_links.txt
+[70.293s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/top_level.txt
+[70.518s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/__init__.py
+[70.698s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_c.c
+[70.979s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[71.170s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[71.489s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so
+[71.728s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so
+[71.944s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so
+[72.167s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/__init__.py
+[72.326s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status.py
+[72.536s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status_s.c
+[72.735s] -- Up-to-date symlink: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so
+[72.735s] -- Up-to-date symlink: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so
+[72.736s] -- Up-to-date symlink: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so
+[72.736s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/ament_index/resource_index/rust_packages/explore_lite_msgs
+[72.978s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/rust/Cargo.toml
+[73.244s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/rust/build.rs
+[73.490s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/rust/src/lib.rs
+[73.682s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/rust/src/msg.rs
+[73.926s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/rust/src/msg/rmw.rs
+[74.158s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.idl
+[74.357s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.msg
+[74.593s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/ament_index/resource_index/package_run_dependencies/explore_lite_msgs
+[74.848s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/ament_index/resource_index/parent_prefix_path/explore_lite_msgs
+[75.072s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/ament_prefix_path.sh
+[75.333s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/ament_prefix_path.dsv
+[75.631s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/path.sh
+[75.907s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/environment/path.dsv
+[76.132s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.bash
+[76.329s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.sh
+[76.523s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.zsh
+[76.722s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.dsv
+[76.949s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/package.dsv
+[77.167s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/ament_index/resource_index/packages/explore_lite_msgs
+[77.359s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake-extras.cmake
+[77.565s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.780s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[78.005s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[78.214s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[78.409s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.630s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[78.912s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[79.148s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgsConfig.cmake
+[79.461s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgsConfig-version.cmake
+[79.661s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/package.xml
+[79.899s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_c.so
+[79.938s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_c.so" to ""
+[79.939s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so
+[79.989s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[79.990s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_c.so
+[79.993s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_c.so" to ""
+[79.993s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_c.so
+[80.033s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_c.so" to ""
+[80.041s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so
+[80.078s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[80.079s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so
+[80.116s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[80.122s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_cpp.so
+[80.166s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_cpp.so" to ""
+[80.466s] Listing '/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs'...
+[80.466s] Compiling '/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/__init__.py'...
+[80.466s] Listing '/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg'...
+[80.469s] Compiling '/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/__init__.py'...
+[80.469s] Compiling '/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status.py'...
+[80.480s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_py.so
+[80.517s] -- Set non-toolchain portion of runtime path of "/home/paola/proyecto_robot/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_py.so" to ""
+[80.518s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cExport.cmake
+[80.524s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cExport-noconfig.cmake
+[80.549s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[80.550s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[80.550s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cExport.cmake
+[80.556s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[80.557s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cExport.cmake
+[80.564s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[80.579s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cppExport.cmake
+[80.580s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[80.583s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[80.591s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[80.605s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[80.609s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cppExport.cmake
+[80.616s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[80.629s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_pyExport.cmake
+[80.629s] -- Installing: /home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_pyExport-noconfig.cmake
+[80.651s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/paola/proyecto_robot/build/explore_lite_msgs

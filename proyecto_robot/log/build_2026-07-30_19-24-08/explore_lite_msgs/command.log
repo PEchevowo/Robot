@@ -1,0 +1,2 @@
+Invoking command in '/home/paola/proyecto_robot/build/explore_lite_msgs': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs
+Invoked command in '/home/paola/proyecto_robot/build/explore_lite_msgs' returned '1': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs

@@ -1,0 +1,32 @@
+[0.223s] Invoking command in '/home/paola/proyecto_robot/build/multirobot_map_merge': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/map_merge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/multirobot_map_merge
+[3.026s] -- The C compiler identification is GNU 13.3.0
+[4.135s] -- The CXX compiler identification is GNU 13.3.0
+[5.149s] -- Detecting C compiler ABI info
+[6.627s] -- Detecting C compiler ABI info - done
+[6.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.666s] -- Detecting C compile features
+[6.682s] -- Detecting C compile features - done
+[6.988s] -- Detecting CXX compiler ABI info
+[8.422s] -- Detecting CXX compiler ABI info - done
+[8.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.513s] -- Detecting CXX compile features
+[8.514s] -- Detecting CXX compile features - done
+[8.778s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[8.779s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[8.779s]   has asked CMake to find a package configuration file provided by
+[8.779s]   "ament_cmake", but CMake did not find one.
+[8.780s] 
+[8.780s]   Could not find a package configuration file provided by "ament_cmake" with
+[8.780s]   any of the following names:
+[8.781s] 
+[8.781s]     ament_cmakeConfig.cmake
+[8.781s]     ament_cmake-config.cmake
+[8.782s] 
+[8.782s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[8.782s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[8.813s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[8.814s]   has been installed.
+[8.814s] 
+[8.814s] [0m
+[8.815s] -- Configuring incomplete, errors occurred!
+[8.847s] Invoked command in '/home/paola/proyecto_robot/build/multirobot_map_merge' returned '1': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/map_merge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/multirobot_map_merge

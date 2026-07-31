@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (robot_proyecto) JobQueued: {'identifier': 'robot_proyecto', 'dependencies': OrderedDict()}
+[0.000584] (robot_proyecto) JobStarted: {'identifier': 'robot_proyecto'}
+[0.107337] (-) TimerEvent: {}
+[0.209743] (-) TimerEvent: {}
+[0.325440] (-) TimerEvent: {}
+[0.427667] (-) TimerEvent: {}
+[0.531649] (-) TimerEvent: {}
+[0.642767] (-) TimerEvent: {}
+[0.759321] (-) TimerEvent: {}
+[0.866873] (-) TimerEvent: {}
+[0.973025] (-) TimerEvent: {}
+[1.075295] (-) TimerEvent: {}
+[1.188353] (-) TimerEvent: {}
+[1.292778] (-) TimerEvent: {}
+[1.407502] (-) TimerEvent: {}
+[1.542577] (-) TimerEvent: {}
+[1.675485] (-) TimerEvent: {}
+[1.790791] (-) TimerEvent: {}
+[1.891599] (-) TimerEvent: {}
+[1.998163] (-) TimerEvent: {}
+[2.109456] (-) TimerEvent: {}
+[2.224891] (-) TimerEvent: {}
+[2.340638] (-) TimerEvent: {}
+[2.442508] (-) TimerEvent: {}
+[2.548257] (-) TimerEvent: {}
+[2.658336] (-) TimerEvent: {}
+[2.774220] (-) TimerEvent: {}
+[2.875175] (-) TimerEvent: {}
+[2.975865] (-) TimerEvent: {}
+[3.092676] (-) TimerEvent: {}
+[3.206787] (-) TimerEvent: {}
+[3.307644] (-) TimerEvent: {}
+[3.414243] (-) TimerEvent: {}
+[3.524576] (-) TimerEvent: {}
+[3.637812] (-) TimerEvent: {}
+[3.739446] (-) TimerEvent: {}
+[3.841484] (-) TimerEvent: {}
+[3.957235] (-) TimerEvent: {}
+[4.058563] (-) TimerEvent: {}
+[4.172806] (-) TimerEvent: {}
+[4.276213] (-) TimerEvent: {}
+[4.391636] (-) TimerEvent: {}
+[4.492960] (-) TimerEvent: {}
+[4.594346] (-) TimerEvent: {}
+[4.622938] (robot_proyecto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_proyecto', 'build', '--build-base', '/home/paola/proyecto_robot/build/robot_proyecto/build', 'install', '--record', '/home/paola/proyecto_robot/build/robot_proyecto/install.log', '--install-scripts', '$base/lib/robot_proyecto', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paola/proyecto_robot/src/robot_proyecto', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paola', 'GIT_ASKPASS': '/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/paola', 'OLDPWD': '/home/paola/proyecto_robot', 'TERM_PROGRAM_VERSION': '1.130.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-6beb3497-89d0-461d-8f8d-0818e520f02e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/paola/proyecto_robot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'paola', 'NAME': 'DESKTOP-C9CNUAF', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/uwu/.local/bin:/mnt/c/Users/uwu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uwu/AppData/Local/Programs/Microsoft VS Code/bin:/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-157f4e92d71da32f.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/paola/.vscode-server/data/User/workspaceStorage/cfd57e8d7c52e8f0bbc862210e679831/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-17ae9f2d4c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/paola/proyecto_robot/install/robot_proyecto', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/paola/proyecto_robot/build/robot_proyecto', 'COPILOT_DEBUG_NONCE': '1a3bbbcf88475a2624b7b109cb17b954', 'PYTHONPATH': '/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}, 'shell': False}
+[4.705191] (-) TimerEvent: {}
+[4.809369] (-) TimerEvent: {}
+[4.923851] (-) TimerEvent: {}
+[5.024984] (-) TimerEvent: {}
+[5.140230] (-) TimerEvent: {}
+[5.242644] (-) TimerEvent: {}
+[5.351831] (-) TimerEvent: {}
+[5.459624] (-) TimerEvent: {}
+[5.574511] (-) TimerEvent: {}
+[5.689960] (-) TimerEvent: {}
+[5.793057] (-) TimerEvent: {}
+[5.899488] (-) TimerEvent: {}
+[6.002547] (-) TimerEvent: {}
+[6.107818] (-) TimerEvent: {}
+[6.208369] (-) TimerEvent: {}
+[6.308981] (-) TimerEvent: {}
+[6.424463] (-) TimerEvent: {}
+[6.503350] (robot_proyecto) StdoutLine: {'line': b'running egg_info\n'}
+[6.562998] (-) TimerEvent: {}
+[6.668521] (robot_proyecto) StdoutLine: {'line': b'writing ../../build/robot_proyecto/robot_proyecto.egg-info/PKG-INFO\n'}
+[6.669641] (-) TimerEvent: {}
+[6.669903] (robot_proyecto) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_proyecto/robot_proyecto.egg-info/dependency_links.txt\n'}
+[6.670626] (robot_proyecto) StdoutLine: {'line': b'writing requirements to ../../build/robot_proyecto/robot_proyecto.egg-info/requires.txt\n'}
+[6.671144] (robot_proyecto) StdoutLine: {'line': b'writing top-level names to ../../build/robot_proyecto/robot_proyecto.egg-info/top_level.txt\n'}
+[6.774254] (-) TimerEvent: {}
+[6.875136] (-) TimerEvent: {}
+[6.943265] (robot_proyecto) StdoutLine: {'line': b"reading manifest file '../../build/robot_proyecto/robot_proyecto.egg-info/SOURCES.txt'\n"}
+[6.950990] (robot_proyecto) StdoutLine: {'line': b"writing manifest file '../../build/robot_proyecto/robot_proyecto.egg-info/SOURCES.txt'\n"}
+[6.970418] (robot_proyecto) StdoutLine: {'line': b'running build\n'}
+[6.971153] (robot_proyecto) StdoutLine: {'line': b'running build_py\n'}
+[6.971766] (robot_proyecto) StdoutLine: {'line': b'running install\n'}
+[6.976162] (-) TimerEvent: {}
+[6.986421] (robot_proyecto) StdoutLine: {'line': b'running install_lib\n'}
+[7.082087] (-) TimerEvent: {}
+[7.191362] (-) TimerEvent: {}
+[7.260604] (robot_proyecto) StdoutLine: {'line': b'running install_data\n'}
+[7.263184] (robot_proyecto) StdoutLine: {'line': b'copying urdf/robot.urdf.xacro -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/urdf\n'}
+[7.266965] (robot_proyecto) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.292824] (-) TimerEvent: {}
+[7.408336] (-) TimerEvent: {}
+[7.516716] (-) TimerEvent: {}
+[7.627774] (robot_proyecto) StdoutLine: {'line': b"removing '/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot_proyecto-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.628340] (-) TimerEvent: {}
+[7.658333] (robot_proyecto) StdoutLine: {'line': b'Copying ../../build/robot_proyecto/robot_proyecto.egg-info to /home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot_proyecto-0.0.0-py3.12.egg-info\n'}
+[7.667698] (robot_proyecto) StdoutLine: {'line': b'running install_scripts\n'}
+[7.740084] (-) TimerEvent: {}
+[7.842629] (-) TimerEvent: {}
+[7.958339] (-) TimerEvent: {}
+[8.065419] (-) TimerEvent: {}
+[8.175506] (-) TimerEvent: {}
+[8.291743] (-) TimerEvent: {}
+[8.397185] (-) TimerEvent: {}
+[8.509437] (-) TimerEvent: {}
+[8.624967] (-) TimerEvent: {}
+[8.732196] (-) TimerEvent: {}
+[8.841231] (-) TimerEvent: {}
+[8.946995] (-) TimerEvent: {}
+[9.056973] (-) TimerEvent: {}
+[9.160797] (-) TimerEvent: {}
+[9.275318] (-) TimerEvent: {}
+[9.393029] (-) TimerEvent: {}
+[9.500876] (-) TimerEvent: {}
+[9.609297] (-) TimerEvent: {}
+[9.639427] (robot_proyecto) StdoutLine: {'line': b"writing list of installed files to '/home/paola/proyecto_robot/build/robot_proyecto/install.log'\n"}
+[9.702558] (robot_proyecto) CommandEnded: {'returncode': 0}
+[9.714323] (-) TimerEvent: {}
+[9.756226] (robot_proyecto) JobEnded: {'identifier': 'robot_proyecto', 'rc': 0}
+[9.761944] (-) EventReactorShutdown: {}

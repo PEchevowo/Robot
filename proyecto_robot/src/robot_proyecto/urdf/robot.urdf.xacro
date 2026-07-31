@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_diferencial">
+
+  <!-- macros de inercia para las fisicas -->
+  <xacro:macro name="inercia_caja" params="m x y z xyz rpy">
+    <inertial>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+      <mass value="${m}"/>
+      <inertia ixx="${(m/12) * (y*y + z*z)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (x*x + z*z)}" iyz="0.0" izz="${(m/12) * (x*x + y*y)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="inercia_cilindro" params="m r h xyz rpy">
+    <inertial>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+      <mass value="${m}"/>
+      <inertia ixx="${(m/12) * (3*r*r + h*h)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (3*r*r + h*h)}" iyz="0.0" izz="${(m/2) * (r*r)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="inercia_esfera" params="m r xyz rpy">
+    <inertial>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+      <mass value="${m}"/>
+      <inertia ixx="${(2/5) * m * r*r}" ixy="0.0" ixz="0.0" iyy="${(2/5) * m * r*r}" iyz="0.0" izz="${(2/5) * m * r*r}"/>
+    </inertial>
+  </xacro:macro>
+
+  <!-- 1. MATERIALES -->
+  <material name="naranja">
+    <color rgba="1 0.5 0 1"/>
+  </material>
+  <material name="negro">
+    <color rgba="0 0 0 1"/>
+  </material>
+
+  <!-- 2. BASE FOOTPRINT -->
+  <link name="base_footprint">
+    <xacro:inercia_caja m="0.001" x="0.001" y="0.001" z="0.001" xyz="0 0 0" rpy="0 0 0"/>
+  </link>
+
+  <!-- Eslabón de apoyo (Dummy Link) para evitar problemas de inercia -->
+  <link name="dummy_link"/>
+  
+  <joint name="dummy_joint" type="fixed">
+    <parent link="dummy_link"/>
+    <child link="base_footprint"/>
+  </joint>
+
+  <!-- 3. CHASIS -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="-0.09 0 0.03" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.18 0.16 0.04"/>
+      </geometry>
+      <material name="naranja"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.09 0 0.03" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.18 0.16 0.04"/>
+      </geometry>
+    </collision>
+    <!-- chasis de 1 kg -->
+    <xacro:inercia_caja m="1.0" x="0.18" y="0.16" z="0.04" xyz="-0.09 0 0.03" rpy="0 0 0"/>
+  </link>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- 4. RUEDA MOTRIZ IZQUIERDA -->
+  <link name="rueda_izquierda">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.02"/>
+      </geometry>
+      <material name="negro"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </collision>
+    <xacro:inercia_cilindro m="0.1" r="0.03" h="0.02" xyz="0 0 0" rpy="0 0 0"/>
+  </link>
+
+  <joint name="rueda_izquierda_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rueda_izquierda"/>
+    <origin xyz="0 0.10 0.03" rpy="-1.5708 0 0"/> 
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- 5. RUEDA MOTRIZ DERECHA -->
+  <link name="rueda_derecha">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.02"/>
+      </geometry>
+      <material name="negro"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </collision>
+    <xacro:inercia_cilindro m="0.1" r="0.03" h="0.02" xyz="0 0 0" rpy="0 0 0"/>
+  </link>
+
+  <joint name="rueda_derecha_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rueda_derecha"/>
+    <origin xyz="0 -0.10 0.03" rpy="-1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- 6. RUEDA LOCA -->
+  <link name="rueda_loca">
+    <visual>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+      <material name="negro"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.014"/>
+      </geometry>
+    </collision>
+    <xacro:inercia_esfera m="0.05" r="0.015" xyz="0 0 0" rpy="0 0 0"/>
+  </link>
+
+  <joint name="rueda_loca_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="rueda_loca"/>
+    <origin xyz="-0.18 0 0.015" rpy="0 0 0"/> 
+  </joint>
+
+  <!-- 7. SENSOR LASER -->
+  <link name="sensor_laser">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+      <material name="negro">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+    </collision>
+    <xacro:inercia_cilindro m="0.1" r="0.05" h="0.04" xyz="0 0 0" rpy="0 0 0"/>
+  </link>
+
+  <joint name="base_a_sensor" type="fixed">
+    <parent link="base_link"/>
+    <child link="sensor_laser"/>
+    <origin xyz="0 0 0.07" rpy="0 0 0"/> 
+  </joint>
+
+  <!-- CONFIGURACIÓN DE FÍSICAS Y GAZEBO -->
+  <gazebo reference="rueda_loca">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+
+  <gazebo reference="rueda_izquierda">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+  
+  <gazebo reference="rueda_derecha">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <gazebo reference="sensor_laser">
+    <sensor name="lidar" type="gpu_lidar">
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <topic>scan</topic>
+      <gz_frame_id>sensor_laser</gz_frame_id>
+      <pose>0 0 0 0 0 0</pose>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1.0</resolution>
+            <min_angle>-3.1416</min_angle>
+            <max_angle>3.1416</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.15</min>
+          <max>8.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+    </sensor>
+  </gazebo>
+
+  <!-- controlador de las ruedas para gazebo harmonic -->
+  <gazebo>
+    <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+      <left_joint>rueda_izquierda_joint</left_joint>
+      <right_joint>rueda_derecha_joint</right_joint>
+      <wheel_separation>0.20</wheel_separation>
+      <wheel_radius>0.03</wheel_radius>
+      <topic>cmd_vel</topic>
+      <odom_topic>odom</odom_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_footprint</child_frame_id>
+    </plugin>
+  </gazebo>
+
+  <!-- activar el motor de sensores de gazebo -->
+  <gazebo>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+  </gazebo>
+
+</robot>

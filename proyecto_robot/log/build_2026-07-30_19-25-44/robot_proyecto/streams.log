@@ -1,0 +1,17 @@
+[12.384s] Invoking command in '/home/paola/proyecto_robot/build/robot_proyecto': PYTHONPATH=/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paola/proyecto_robot/build/robot_proyecto/build --no-deps symlink_data
+[14.743s] running develop
+[16.651s] running egg_info
+[16.789s] writing robot_proyecto.egg-info/PKG-INFO
+[16.790s] writing dependency_links to robot_proyecto.egg-info/dependency_links.txt
+[16.792s] writing entry points to robot_proyecto.egg-info/entry_points.txt
+[16.810s] writing requirements to robot_proyecto.egg-info/requires.txt
+[16.810s] writing top-level names to robot_proyecto.egg-info/top_level.txt
+[17.131s] reading manifest file 'robot_proyecto.egg-info/SOURCES.txt'
+[17.196s] writing manifest file 'robot_proyecto.egg-info/SOURCES.txt'
+[17.391s] running build_ext
+[17.391s] Creating /home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot-proyecto.egg-link (link to .)
+[17.396s] Installing odom_tf_publisher script to /home/paola/proyecto_robot/install/robot_proyecto/lib/robot_proyecto
+[17.397s] 
+[17.397s] Installed /home/paola/proyecto_robot/build/robot_proyecto
+[17.397s] running symlink_data
+[17.502s] Invoked command in '/home/paola/proyecto_robot/build/robot_proyecto' returned '0': PYTHONPATH=/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paola/proyecto_robot/build/robot_proyecto/build --no-deps symlink_data

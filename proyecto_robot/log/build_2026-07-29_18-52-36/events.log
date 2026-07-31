@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (robot_proyecto) JobQueued: {'identifier': 'robot_proyecto', 'dependencies': OrderedDict()}
+[0.000801] (robot_proyecto) JobStarted: {'identifier': 'robot_proyecto'}
+[0.090558] (-) TimerEvent: {}
+[0.203790] (-) TimerEvent: {}
+[0.307683] (-) TimerEvent: {}
+[0.413457] (-) TimerEvent: {}
+[0.521493] (-) TimerEvent: {}
+[0.637404] (-) TimerEvent: {}
+[0.745597] (-) TimerEvent: {}
+[0.856403] (-) TimerEvent: {}
+[0.976022] (-) TimerEvent: {}
+[1.091288] (-) TimerEvent: {}
+[1.204955] (-) TimerEvent: {}
+[1.309752] (-) TimerEvent: {}
+[1.423332] (-) TimerEvent: {}
+[1.537869] (-) TimerEvent: {}
+[1.674328] (-) TimerEvent: {}
+[1.783233] (-) TimerEvent: {}
+[1.890718] (-) TimerEvent: {}
+[2.006070] (-) TimerEvent: {}
+[2.115121] (-) TimerEvent: {}
+[2.238708] (-) TimerEvent: {}
+[2.346672] (-) TimerEvent: {}
+[2.456537] (-) TimerEvent: {}
+[2.563014] (-) TimerEvent: {}
+[2.676767] (-) TimerEvent: {}
+[2.788393] (-) TimerEvent: {}
+[2.897288] (-) TimerEvent: {}
+[3.002264] (-) TimerEvent: {}
+[3.116495] (-) TimerEvent: {}
+[3.223819] (-) TimerEvent: {}
+[3.344444] (-) TimerEvent: {}
+[3.460961] (-) TimerEvent: {}
+[3.576001] (-) TimerEvent: {}
+[3.687974] (-) TimerEvent: {}
+[3.794019] (-) TimerEvent: {}
+[3.914903] (-) TimerEvent: {}
+[4.041241] (-) TimerEvent: {}
+[4.152203] (-) TimerEvent: {}
+[4.260548] (-) TimerEvent: {}
+[4.369202] (-) TimerEvent: {}
+[4.481039] (-) TimerEvent: {}
+[4.589040] (-) TimerEvent: {}
+[4.693618] (-) TimerEvent: {}
+[4.802057] (-) TimerEvent: {}
+[4.910411] (-) TimerEvent: {}
+[5.015988] (-) TimerEvent: {}
+[5.118797] (-) TimerEvent: {}
+[5.224378] (-) TimerEvent: {}
+[5.335646] (-) TimerEvent: {}
+[5.439817] (-) TimerEvent: {}
+[5.556532] (-) TimerEvent: {}
+[5.664826] (-) TimerEvent: {}
+[5.780611] (-) TimerEvent: {}
+[5.882857] (-) TimerEvent: {}
+[5.991801] (-) TimerEvent: {}
+[6.106709] (-) TimerEvent: {}
+[6.107464] (robot_proyecto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/paola/proyecto_robot/build/robot_proyecto/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/paola/proyecto_robot/build/robot_proyecto', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paola', 'GIT_ASKPASS': '/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'HOME': '/home/paola', 'OLDPWD': '/home/paola/proyecto_robot', 'TERM_PROGRAM_VERSION': '1.130.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-b0d2f6a3-465f-4d2b-9674-c6aa24ffb41f.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'LOGNAME': 'paola', 'NAME': 'DESKTOP-C9CNUAF', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/paola/.vscode-server/bin/1b6a188127eeaf9194f945eb6eb89a657e93c54c/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/uwu/.local/bin:/mnt/c/Users/uwu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uwu/AppData/Local/Programs/Microsoft VS Code/bin:/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-06b2cd111946900e.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/paola/.vscode-server/data/User/workspaceStorage/cfd57e8d7c52e8f0bbc862210e679831/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-17ae9f2d4c.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/paola/proyecto_robot/build/robot_proyecto', 'COPILOT_DEBUG_NONCE': '1a3bbbcf88475a2624b7b109cb17b954', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up', 'PYTHONPATH': '/home/paola/proyecto_robot/build/robot_proyecto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages:'}, 'shell': False}
+[6.219227] (-) TimerEvent: {}
+[6.329377] (-) TimerEvent: {}
+[6.446831] (-) TimerEvent: {}
+[6.556186] (-) TimerEvent: {}
+[6.666708] (-) TimerEvent: {}
+[6.771349] (-) TimerEvent: {}
+[6.884583] (-) TimerEvent: {}
+[6.994546] (-) TimerEvent: {}
+[7.109991] (-) TimerEvent: {}
+[7.226811] (-) TimerEvent: {}
+[7.334563] (-) TimerEvent: {}
+[7.441765] (-) TimerEvent: {}
+[7.556210] (-) TimerEvent: {}
+[7.658909] (-) TimerEvent: {}
+[7.688087] (robot_proyecto) StdoutLine: {'line': b'running develop\n'}
+[7.770891] (-) TimerEvent: {}
+[7.871874] (-) TimerEvent: {}
+[7.984340] (-) TimerEvent: {}
+[8.091503] (-) TimerEvent: {}
+[8.193607] (-) TimerEvent: {}
+[8.308952] (-) TimerEvent: {}
+[8.428741] (-) TimerEvent: {}
+[8.541808] (-) TimerEvent: {}
+[8.664095] (robot_proyecto) StdoutLine: {'line': b'running egg_info\n'}
+[8.664835] (-) TimerEvent: {}
+[8.734979] (robot_proyecto) StdoutLine: {'line': b'writing robot_proyecto.egg-info/PKG-INFO\n'}
+[8.753496] (robot_proyecto) StdoutLine: {'line': b'writing dependency_links to robot_proyecto.egg-info/dependency_links.txt\n'}
+[8.754121] (robot_proyecto) StdoutLine: {'line': b'writing entry points to robot_proyecto.egg-info/entry_points.txt\n'}
+[8.754637] (robot_proyecto) StdoutLine: {'line': b'writing requirements to robot_proyecto.egg-info/requires.txt\n'}
+[8.755176] (robot_proyecto) StdoutLine: {'line': b'writing top-level names to robot_proyecto.egg-info/top_level.txt\n'}
+[8.775777] (-) TimerEvent: {}
+[8.880415] (-) TimerEvent: {}
+[8.918509] (robot_proyecto) StdoutLine: {'line': b"reading manifest file 'robot_proyecto.egg-info/SOURCES.txt'\n"}
+[8.926050] (robot_proyecto) StdoutLine: {'line': b"writing manifest file 'robot_proyecto.egg-info/SOURCES.txt'\n"}
+[8.991958] (-) TimerEvent: {}
+[9.021044] (robot_proyecto) StdoutLine: {'line': b'running build_ext\n'}
+[9.021994] (robot_proyecto) StdoutLine: {'line': b'Creating /home/paola/proyecto_robot/install/robot_proyecto/lib/python3.12/site-packages/robot-proyecto.egg-link (link to .)\n'}
+[9.029329] (robot_proyecto) StdoutLine: {'line': b'Installing odom_tf_publisher script to /home/paola/proyecto_robot/install/robot_proyecto/lib/robot_proyecto\n'}
+[9.031496] (robot_proyecto) StdoutLine: {'line': b'\n'}
+[9.031996] (robot_proyecto) StdoutLine: {'line': b'Installed /home/paola/proyecto_robot/build/robot_proyecto\n'}
+[9.032740] (robot_proyecto) StdoutLine: {'line': b'running symlink_data\n'}
+[9.046319] (robot_proyecto) StdoutLine: {'line': b'symbolically linking /home/paola/proyecto_robot/build/robot_proyecto/resource/robot_proyecto -> /home/paola/proyecto_robot/install/robot_proyecto/share/ament_index/resource_index/packages\n'}
+[9.050001] (robot_proyecto) StdoutLine: {'line': b'symbolically linking /home/paola/proyecto_robot/build/robot_proyecto/package.xml -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto\n'}
+[9.055336] (robot_proyecto) StdoutLine: {'line': b'symbolically linking /home/paola/proyecto_robot/build/robot_proyecto/launch/simulacion.launch.py -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/launch\n'}
+[9.055883] (robot_proyecto) StdoutLine: {'line': b'symbolically linking /home/paola/proyecto_robot/build/robot_proyecto/launch/ver_robot.launch.py -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/launch\n'}
+[9.060846] (robot_proyecto) StdoutLine: {'line': b'symbolically linking /home/paola/proyecto_robot/build/robot_proyecto/urdf/robot.urdf.xacro -> /home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/urdf\n'}
+[9.062846] (robot_proyecto) StderrLine: {'line': b"error: [Errno 2] No such file or directory: '/home/paola/proyecto_robot/install/robot_proyecto/share/robot_proyecto/worlds/mundo_paredes.sdf'\n"}
+[9.105876] (-) TimerEvent: {}
+[9.186355] (robot_proyecto) CommandEnded: {'returncode': 1}
+[9.188982] (robot_proyecto) JobEnded: {'identifier': 'robot_proyecto', 'rc': 1}
+[9.206241] (-) EventReactorShutdown: {}

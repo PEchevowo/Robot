@@ -1,0 +1,2 @@
+Invoking command in '/home/paola/proyecto_robot/build/multirobot_map_merge': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/map_merge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/multirobot_map_merge
+Invoked command in '/home/paola/proyecto_robot/build/multirobot_map_merge' returned '1': /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/map_merge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/multirobot_map_merge

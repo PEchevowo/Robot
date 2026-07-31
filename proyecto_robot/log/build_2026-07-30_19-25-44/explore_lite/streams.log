@@ -1,0 +1,104 @@
+[0.286s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite': AMENT_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite
+[1.211s] -- The C compiler identification is GNU 13.3.0
+[1.972s] -- The CXX compiler identification is GNU 13.3.0
+[2.374s] -- Detecting C compiler ABI info
+[4.092s] -- Detecting C compiler ABI info - done
+[4.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.143s] -- Detecting C compile features
+[4.143s] -- Detecting C compile features - done
+[4.444s] -- Detecting CXX compiler ABI info
+[6.269s] -- Detecting CXX compiler ABI info - done
+[6.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.320s] -- Detecting CXX compile features
+[6.321s] -- Detecting CXX compile features - done
+[6.384s] -- BuilD for ROS2: jazzy
+[6.479s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.657s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.874s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[11.680s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[11.991s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[12.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.045s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[14.154s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[16.371s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[16.594s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[16.812s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.785s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[17.953s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[18.349s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[19.894s] -- Found tf2_geometry_msgs: 0.36.21 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[20.326s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[20.335s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[20.336s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[20.534s] -- Found nav2_msgs: 1.3.12 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[23.028s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[23.256s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[24.235s] -- Found nav2_costmap_2d: 1.3.12 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[30.214s] -- Found explore_lite_msgs: 1.0.0 (/home/paola/proyecto_robot/install/explore_lite_msgs/share/explore_lite_msgs/cmake)
+[30.367s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[31.498s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[31.581s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[31.593s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[33.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33.644s] -- Found Threads: TRUE  
+[33.994s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[33.995s] -- Configured cppcheck include dirs: /home/paola/proyecto_robot/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/paola/proyecto_robot/src/m-explore-ros2/explore/include>
+[33.995s] -- Configured cppcheck exclude dirs and/or files: 
+[34.000s] -- Added test 'flake8' to check Python code syntax and style conventions
+[34.000s] -- Configured 'flake8' exclude dirs and/or files: 
+[34.064s] -- Added test 'lint_cmake' to check CMake code style
+[34.075s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[34.105s] -- Added test 'uncrustify' to check C / C++ code style
+[34.106s] -- Configured uncrustify additional arguments: 
+[34.135s] -- Added test 'xmllint' to check XML markup files
+[34.293s] -- Configuring done (33.8s)
+[34.827s] -- Generating done (0.4s)
+[35.217s] -- Build files have been written to: /home/paola/proyecto_robot/build/explore_lite
+[35.282s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite' returned '0': AMENT_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/paola/proyecto_robot/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite
+[35.295s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite': AMENT_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/paola/proyecto_robot/build/explore_lite -- -j8 -l8
+[36.714s] [ 10%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[36.718s] [ 20%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[36.734s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[36.766s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[36.821s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[40.701s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[42.448s] [ 60%] Built target gtest_main
+[50.651s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[51.988s] [ 70%] Built target gtest
+[52.753s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[58.556s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[59.847s] [ 90%] Built target test_explore
+[103.045s] [100%] [32m[1mLinking CXX executable explore[0m
+[108.353s] [100%] Built target explore
+[108.552s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite' returned '0': AMENT_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/paola/proyecto_robot/build/explore_lite -- -j8 -l8
+[108.561s] Invoking command in '/home/paola/proyecto_robot/build/explore_lite': AMENT_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/paola/proyecto_robot/build/explore_lite
+[108.728s] -- Install configuration: ""
+[108.738s] -- Execute custom install script
+[108.745s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/include/explore//costmap_client.h
+[108.972s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/include/explore//costmap_tools.h
+[109.148s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/include/explore//explore.h
+[109.360s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/include/explore//frontier_search.h
+[109.571s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/config/params.yaml
+[109.783s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[109.979s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[110.186s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/lib/explore_lite/explore
+[110.365s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[110.577s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[110.809s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[110.982s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[111.187s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/environment/path.sh
+[111.386s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/environment/path.dsv
+[111.567s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/local_setup.bash
+[111.763s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/local_setup.sh
+[111.930s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/local_setup.zsh
+[112.115s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/local_setup.dsv
+[112.315s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/package.dsv
+[112.542s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[112.710s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[112.902s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[113.101s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[113.278s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[113.461s] -- Symlinking: /home/paola/proyecto_robot/install/explore_lite/share/explore_lite/package.xml
+[113.658s] Invoked command in '/home/paola/proyecto_robot/build/explore_lite' returned '0': AMENT_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paola/proyecto_robot/install/explore_lite_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/paola/proyecto_robot/build/explore_lite

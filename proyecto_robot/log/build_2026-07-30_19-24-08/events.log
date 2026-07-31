@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (explore_lite_msgs) JobQueued: {'identifier': 'explore_lite_msgs', 'dependencies': OrderedDict()}
+[0.000554] (multirobot_map_merge) JobQueued: {'identifier': 'multirobot_map_merge', 'dependencies': OrderedDict()}
+[0.000647] (robot_proyecto) JobQueued: {'identifier': 'robot_proyecto', 'dependencies': OrderedDict()}
+[0.000732] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict({'explore_lite_msgs': '/home/paola/proyecto_robot/install/explore_lite_msgs'})}
+[0.000834] (explore_lite_msgs) JobStarted: {'identifier': 'explore_lite_msgs'}
+[0.124702] (-) TimerEvent: {}
+[0.236523] (-) TimerEvent: {}
+[0.244713] (multirobot_map_merge) JobStarted: {'identifier': 'multirobot_map_merge'}
+[0.262866] (robot_proyecto) JobStarted: {'identifier': 'robot_proyecto'}
+[0.353793] (-) TimerEvent: {}
+[0.372897] (explore_lite_msgs) JobProgress: {'identifier': 'explore_lite_msgs', 'progress': 'cmake'}
+[0.375028] (explore_lite_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/paola/proyecto_robot/src/m-explore-ros2/explore_lite_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/explore_lite_msgs'], 'cwd': '/home/paola/proyecto_robot/build/explore_lite_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paola', 'GIT_ASKPASS': '/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'HOME': '/home/paola', 'OLDPWD': '/home/paola/proyecto_robot/src', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-93b7701c-32f0-4318-ac18-55a3babd7074.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'LOGNAME': 'paola', 'NAME': 'DESKTOP-C9CNUAF', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/uwu/.local/bin:/mnt/c/Users/uwu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uwu/AppData/Local/Programs/Microsoft VS Code/bin:/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-79ecb36eaea7da15.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/paola/.vscode-server/data/User/workspaceStorage/cfd57e8d7c52e8f0bbc862210e679831/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-17ae9f2d4c.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/paola/proyecto_robot/build/explore_lite_msgs', 'COPILOT_DEBUG_NONCE': '1a3bbbcf88475a2624b7b109cb17b954', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}), 'shell': False}
+[0.454463] (multirobot_map_merge) JobProgress: {'identifier': 'multirobot_map_merge', 'progress': 'cmake'}
+[0.454725] (-) TimerEvent: {}
+[0.460324] (multirobot_map_merge) Command: {'cmd': ['/usr/bin/cmake', '/home/paola/proyecto_robot/src/m-explore-ros2/map_merge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paola/proyecto_robot/install/multirobot_map_merge'], 'cwd': '/home/paola/proyecto_robot/build/multirobot_map_merge', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paola', 'GIT_ASKPASS': '/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'HOME': '/home/paola', 'OLDPWD': '/home/paola/proyecto_robot/src', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-93b7701c-32f0-4318-ac18-55a3babd7074.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'LOGNAME': 'paola', 'NAME': 'DESKTOP-C9CNUAF', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/paola/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/paola/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/uwu/.local/bin:/mnt/c/Users/uwu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uwu/AppData/Local/Programs/Microsoft VS Code/bin:/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paola/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-79ecb36eaea7da15.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/paola/.vscode-server/data/User/workspaceStorage/cfd57e8d7c52e8f0bbc862210e679831/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-17ae9f2d4c.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/paola/proyecto_robot/build/multirobot_map_merge', 'COPILOT_DEBUG_NONCE': '1a3bbbcf88475a2624b7b109cb17b954', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}), 'shell': False}
+[0.557346] (-) TimerEvent: {}
+[0.675402] (-) TimerEvent: {}
+[0.791905] (-) TimerEvent: {}
+[0.916812] (-) TimerEvent: {}
+[1.022121] (-) TimerEvent: {}
+[1.137726] (-) TimerEvent: {}
+[1.266780] (-) TimerEvent: {}
+[1.383801] (-) TimerEvent: {}
+[1.495969] (-) TimerEvent: {}
+[1.611984] (-) TimerEvent: {}
+[1.724383] (-) TimerEvent: {}
+[1.861873] (-) TimerEvent: {}
+[1.977115] (-) TimerEvent: {}
+[2.085897] (-) TimerEvent: {}
+[2.193742] (-) TimerEvent: {}
+[2.301936] (-) TimerEvent: {}
+[2.406576] (-) TimerEvent: {}
+[2.511681] (-) TimerEvent: {}
+[2.628621] (-) TimerEvent: {}
+[2.739065] (-) TimerEvent: {}
+[2.841266] (-) TimerEvent: {}
+[2.957662] (-) TimerEvent: {}
+[3.078024] (-) TimerEvent: {}
+[3.195353] (-) TimerEvent: {}
+[3.260161] (explore_lite_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.270516] (multirobot_map_merge) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.315591] (-) TimerEvent: {}
+[3.425296] (-) TimerEvent: {}
+[3.533209] (-) TimerEvent: {}
+[3.638721] (-) TimerEvent: {}
+[3.745148] (-) TimerEvent: {}
+[3.851798] (-) TimerEvent: {}
+[3.956019] (-) TimerEvent: {}
+[4.060373] (-) TimerEvent: {}
+[4.173132] (-) TimerEvent: {}
+[4.292372] (-) TimerEvent: {}
+[4.363781] (explore_lite_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.379615] (multirobot_map_merge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.408843] (-) TimerEvent: {}
+[4.525494] (-) TimerEvent: {}
+[4.642245] (-) TimerEvent: {}
+[4.756396] (-) TimerEvent: {}
+[4.872214] (-) TimerEvent: {}
+[4.997639] (-) TimerEvent: {}
+[5.156730] (-) TimerEvent: {}
+[5.273092] (-) TimerEvent: {}
+[5.379041] (-) TimerEvent: {}
+[5.393749] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.399171] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.507905] (-) TimerEvent: {}
+[5.618024] (-) TimerEvent: {}
+[5.755420] (-) TimerEvent: {}
+[5.860039] (-) TimerEvent: {}
+[5.971859] (-) TimerEvent: {}
+[6.074848] (-) TimerEvent: {}
+[6.190205] (-) TimerEvent: {}
+[6.304249] (-) TimerEvent: {}
+[6.406207] (-) TimerEvent: {}
+[6.520856] (-) TimerEvent: {}
+[6.639659] (-) TimerEvent: {}
+[6.766850] (-) TimerEvent: {}
+[6.809348] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.847802] (explore_lite_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.871499] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.871995] (-) TimerEvent: {}
+[6.877691] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.908917] (multirobot_map_merge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.909998] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.925462] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.926567] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.983471] (-) TimerEvent: {}
+[7.089407] (-) TimerEvent: {}
+[7.201709] (-) TimerEvent: {}
+[7.232287] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.232846] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.310221] (-) TimerEvent: {}
+[7.422129] (-) TimerEvent: {}
+[7.540015] (-) TimerEvent: {}
+[7.651252] (-) TimerEvent: {}
+[7.758100] (-) TimerEvent: {}
+[7.880143] (-) TimerEvent: {}
+[7.990998] (-) TimerEvent: {}
+[8.104511] (-) TimerEvent: {}
+[8.206467] (-) TimerEvent: {}
+[8.324805] (-) TimerEvent: {}
+[8.447061] (-) TimerEvent: {}
+[8.570230] (-) TimerEvent: {}
+[8.666035] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.671868] (-) TimerEvent: {}
+[8.684166] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.742760] (explore_lite_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.743289] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.743665] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.757006] (multirobot_map_merge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.757511] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.757905] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.772995] (-) TimerEvent: {}
+[8.889325] (-) TimerEvent: {}
+[8.993839] (-) TimerEvent: {}
+[9.022778] (multirobot_map_merge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[9.023358] (multirobot_map_merge) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[9.023729] (multirobot_map_merge) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[9.024057] (multirobot_map_merge) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[9.024381] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[9.024698] (multirobot_map_merge) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[9.025007] (multirobot_map_merge) StderrLine: {'line': b'  any of the following names:\n'}
+[9.025330] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[9.025684] (multirobot_map_merge) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[9.025991] (multirobot_map_merge) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[9.026369] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[9.026680] (multirobot_map_merge) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[9.027014] (multirobot_map_merge) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[9.027333] (multirobot_map_merge) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[9.058364] (multirobot_map_merge) StderrLine: {'line': b'  has been installed.\n'}
+[9.058699] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[9.059022] (multirobot_map_merge) StderrLine: {'line': b'\x1b[0m\n'}
+[9.059354] (multirobot_map_merge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.059669] (explore_lite_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[9.060072] (explore_lite_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[9.060390] (explore_lite_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[9.060680] (explore_lite_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[9.060970] (explore_lite_msgs) StderrLine: {'line': b'\n'}
+[9.061262] (explore_lite_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[9.061543] (explore_lite_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[9.061832] (explore_lite_msgs) StderrLine: {'line': b'\n'}
+[9.062105] (explore_lite_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[9.062373] (explore_lite_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[9.062637] (explore_lite_msgs) StderrLine: {'line': b'\n'}
+[9.062899] (explore_lite_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[9.063169] (explore_lite_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[9.063501] (explore_lite_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[9.090045] (explore_lite_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[9.090350] (explore_lite_msgs) StderrLine: {'line': b'\n'}
+[9.090611] (explore_lite_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[9.090862] (explore_lite_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.091178] (multirobot_map_merge) CommandEnded: {'returncode': 1}
+[9.091735] (explore_lite_msgs) CommandEnded: {'returncode': 1}
+[9.102066] (-) TimerEvent: {}
+[9.223072] (-) TimerEvent: {}
+[9.333931] (-) TimerEvent: {}
+[9.450693] (-) TimerEvent: {}
+[9.558030] (-) TimerEvent: {}
+[9.671400] (-) TimerEvent: {}
+[9.776802] (-) TimerEvent: {}
+[9.889713] (-) TimerEvent: {}
+[9.904591] (explore_lite_msgs) JobEnded: {'identifier': 'explore_lite_msgs', 'rc': 1}
+[9.907948] (multirobot_map_merge) JobEnded: {'identifier': 'multirobot_map_merge', 'rc': 'SIGINT'}
+[9.992189] (-) TimerEvent: {}
+[10.105269] (-) TimerEvent: {}
+[10.254294] (-) TimerEvent: {}
+[10.361175] (-) TimerEvent: {}
+[10.475265] (-) TimerEvent: {}
+[10.589858] (-) TimerEvent: {}
+[10.711551] (-) TimerEvent: {}
+[10.819828] (-) TimerEvent: {}
+[10.922076] (-) TimerEvent: {}
+[11.032684] (-) TimerEvent: {}
+[11.138290] (-) TimerEvent: {}
+[11.242992] (-) TimerEvent: {}
+[11.356271] (-) TimerEvent: {}
+[11.466113] (-) TimerEvent: {}
+[11.597211] (-) TimerEvent: {}
+[11.724483] (-) TimerEvent: {}
+[11.831433] (-) TimerEvent: {}
+[11.949219] (-) TimerEvent: {}
+[12.053596] (-) TimerEvent: {}
+[12.156198] (-) TimerEvent: {}
+[12.277828] (-) TimerEvent: {}
+[12.392017] (-) TimerEvent: {}
+[12.509394] (-) TimerEvent: {}
+[12.620938] (-) TimerEvent: {}
+[12.746672] (-) TimerEvent: {}
+[12.859236] (-) TimerEvent: {}
+[12.973747] (-) TimerEvent: {}
+[13.084341] (-) TimerEvent: {}
+[13.189269] (-) TimerEvent: {}
+[13.291665] (-) TimerEvent: {}
+[13.409869] (-) TimerEvent: {}
+[13.521663] (-) TimerEvent: {}
+[13.639760] (-) TimerEvent: {}
+[13.754843] (-) TimerEvent: {}
+[13.856253] (-) TimerEvent: {}
+[13.976743] (-) TimerEvent: {}
+[14.103406] (-) TimerEvent: {}
+[14.206179] (-) TimerEvent: {}
+[14.309398] (-) TimerEvent: {}
+[14.422712] (-) TimerEvent: {}
+[14.529677] (-) TimerEvent: {}
+[14.634526] (-) TimerEvent: {}
+[14.749005] (-) TimerEvent: {}
+[14.854485] (-) TimerEvent: {}
+[14.958388] (-) TimerEvent: {}
+[15.068187] (-) TimerEvent: {}
+[15.169662] (-) TimerEvent: {}
+[15.276515] (-) TimerEvent: {}
+[15.392678] (-) TimerEvent: {}
+[15.505599] (-) TimerEvent: {}
+[15.624103] (-) TimerEvent: {}
+[15.738282] (-) TimerEvent: {}
+[15.850011] (-) TimerEvent: {}
+[15.955497] (-) TimerEvent: {}
+[16.060474] (-) TimerEvent: {}
+[16.188500] (-) TimerEvent: {}
+[16.306712] (-) TimerEvent: {}
+[16.418594] (-) TimerEvent: {}
+[16.523268] (-) TimerEvent: {}
+[16.649145] (-) TimerEvent: {}
+[16.756379] (-) TimerEvent: {}
+[16.883110] (-) TimerEvent: {}
+[16.989427] (-) TimerEvent: {}
+[17.103494] (-) TimerEvent: {}
+[17.205377] (-) TimerEvent: {}
+[17.309326] (-) TimerEvent: {}
+[17.430406] (-) TimerEvent: {}
+[17.537777] (-) TimerEvent: {}
+[17.639619] (-) TimerEvent: {}
+[17.757465] (-) TimerEvent: {}
+[17.872671] (-) TimerEvent: {}
+[17.987906] (-) TimerEvent: {}
+[18.094218] (-) TimerEvent: {}
+[18.202635] (-) TimerEvent: {}
+[18.310321] (-) TimerEvent: {}
+[18.423666] (-) TimerEvent: {}
+[18.541326] (-) TimerEvent: {}
+[18.670066] (-) TimerEvent: {}
+[18.771722] (-) TimerEvent: {}
+[18.889281] (-) TimerEvent: {}
+[18.990397] (-) TimerEvent: {}
+[19.109782] (-) TimerEvent: {}
+[19.221843] (-) TimerEvent: {}
+[19.337283] (-) TimerEvent: {}
+[19.438795] (-) TimerEvent: {}
+[19.557943] (-) TimerEvent: {}
+[19.672994] (-) TimerEvent: {}
+[19.786690] (-) TimerEvent: {}
+[19.888605] (-) TimerEvent: {}
+[20.006302] (-) TimerEvent: {}
+[20.107082] (-) TimerEvent: {}
+[20.224753] (-) TimerEvent: {}
+[20.337569] (-) TimerEvent: {}
+[20.443286] (-) TimerEvent: {}
+[20.553152] (-) TimerEvent: {}
+[20.667599] (-) TimerEvent: {}
+[20.770882] (-) TimerEvent: {}
+[20.874082] (-) TimerEvent: {}
+[20.986422] (-) TimerEvent: {}
+[21.101985] (-) TimerEvent: {}
+[21.204411] (-) TimerEvent: {}
+[21.322684] (-) TimerEvent: {}
+[21.439650] (-) TimerEvent: {}
+[21.548972] (-) TimerEvent: {}
+[21.656503] (-) TimerEvent: {}
+[21.771026] (-) TimerEvent: {}
+[21.871956] (-) TimerEvent: {}
+[21.987226] (-) TimerEvent: {}
+[22.106487] (-) TimerEvent: {}
+[22.221198] (-) TimerEvent: {}
+[22.334145] (-) TimerEvent: {}
+[22.442469] (-) TimerEvent: {}
+[22.559597] (-) TimerEvent: {}
+[22.671098] (-) TimerEvent: {}
+[22.788486] (-) TimerEvent: {}
+[22.906113] (-) TimerEvent: {}
+[23.022686] (-) TimerEvent: {}
+[23.137694] (-) TimerEvent: {}
+[23.263750] (-) TimerEvent: {}
+[23.374366] (-) TimerEvent: {}
+[23.402254] (robot_proyecto) JobEnded: {'identifier': 'robot_proyecto', 'rc': 'SIGINT'}
+[23.424730] (explore_lite) JobSkipped: {'identifier': 'explore_lite'}
+[23.424864] (-) EventReactorShutdown: {}
