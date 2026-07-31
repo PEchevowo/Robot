@@ -27,6 +27,7 @@ setup(
     entry_points={
         'console_scripts': [
             'odom_tf_publisher = robot_proyecto.odom_tf_publisher:main',
+            'serial_bridge = robot_proyecto.serial_bridge:main',
         ],
     },
 )
