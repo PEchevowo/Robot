@@ -9,7 +9,7 @@ def generate_launch_description():
             executable='urg_node_driver',
             name='urg_node',
             parameters=[{
-                'serial_port': '/dev/ttyACM1', # Cambiar a ACM0 o ACM1 según corresponda
+                'serial_port': '/dev/ttyACM0', # Cambiar a ACM0 o ACM1 según corresponda
                 'frame_id': 'laser_frame',
                 'angle_min': -2.35, # Los Hokuyo suelen tener mayor apertura
                 'angle_max': 2.35

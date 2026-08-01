@@ -7,7 +7,7 @@ class SerialBridge(Node):
     def __init__(self):
         super().__init__('serial_bridge')
         # ajusta el puerto segun como la jetson reconozca al arduino
-        self.puerto = serial.Serial('/dev/ttyACM0', 115200, timeout=1)
+        self.puerto = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)
         self.sub = self.create_subscription(Twist, '/cmd_vel', self.mover, 10)
 
     def mover(self, msg):
