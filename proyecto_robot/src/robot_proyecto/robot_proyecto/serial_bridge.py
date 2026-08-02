@@ -11,7 +11,8 @@ class SerialBridge(Node):
         self.sub = self.create_subscription(Twist, '/cmd_vel', self.mover, 10)
 
     def mover(self, msg):
-        lineal = msg.linear.x * 5
+        # Invertimos la marcha (-) y multiplicamos por 5 para romper la inercia
+        lineal = -msg.linear.x * 5
         angular = msg.angular.z
         
         # enviamos los datos separados por coma

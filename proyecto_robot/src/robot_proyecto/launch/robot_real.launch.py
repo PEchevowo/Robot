@@ -10,7 +10,7 @@ def generate_launch_description():
             name='urg_node',
             parameters=[{
                 'serial_port': '/dev/ttyACM0',
-                'frame_id': 'laser_frame',
+                'frame_id': 'laser',
                 'angle_min': -1.57,
                 'angle_max': 1.57
             }]
@@ -32,6 +32,6 @@ def generate_launch_description():
             package='tf2_ros',
             executable='static_transform_publisher',
             name='base_to_laser',
-            arguments=['0', '0', '0.1', '0', '0', '0', 'base_link', 'laser_frame']
+            arguments=['0', '0', '0.1', '0', '0', '0', 'base_link', 'laser']
         )
     ])
